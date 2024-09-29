@@ -5,7 +5,7 @@ import "./style.css";
 const sketchHtmlElement = document.getElementById("sketch");
 
 if (!sketchHtmlElement) {
-	throw "Sketch not found";
+  throw "Sketch not found";
 }
 
 new p5(sketch, sketchHtmlElement);
